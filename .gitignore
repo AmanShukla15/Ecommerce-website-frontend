@@ -22,10 +22,6 @@ Thumbs.db
 .idea/
 *.swp
 
-# Build files
-dist/
-build/
-
 # Temporary files
 *.tmp
 *.temp
