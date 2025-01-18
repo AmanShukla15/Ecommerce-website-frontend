@@ -53,7 +53,6 @@ export const Signup = () => {
 
   // this function handles signup and dispatches the signup action with credentails that api requires
   const handleSignup=(data)=>{
-    console.log("data ", data)
     const cred={...data}
     delete cred.confirmPassword
     dispatch(signupAsync(cred))

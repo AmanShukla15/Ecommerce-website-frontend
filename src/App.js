@@ -18,7 +18,6 @@ function App() {
   const isAuthChecked=useSelector(selectIsAuthChecked)
   const loggedInUser=useSelector(selectLoggedInUser)
 
-
   useAuthCheck();
   useFetchLoggedInUserDetails(loggedInUser);
 
